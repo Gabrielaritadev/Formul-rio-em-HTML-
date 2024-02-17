@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= mmmo, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de Candidatura de Emprego</h1>
+    <form method="post" action="teste.jsp">
+        Nome Completo: <input type="text" name="Nome">
+         Telefone: <input type="number" name="Telefone"> <br>
+        Data de Nascimento: <input type="date" name="Nascimento"> <br>
+        Endereço: <input type="text" name="Endereço"> 
+        Número: <input type="text" name="Numero"> <br>
+        
+        Cidade: <select name="Cidade">
+        <option> São Paulo - Capital </option> 
+        <option> Guarulhos </option>
+        <option> São Bernardo do Campo </option>
+</select> <br>
+        
+        Selecione a sua disponibilidade de horário abaixo: <br>
+        Diurno <input type="radio" name="horario" value="Diurno"> <br>
+        Noturno <input type="radio" name="horario" value="Noturno"> <br>
+        Anexar Currículo (pdf): <input type="file" name="Currículo"> <br>
+    
+        Faça uma breve apresentação nos contando um pouco sobre você: <br>
+        <textarea name="Apresentação"
+        rows="10" cols="30" ></textarea> <br>
+
+        <input type="submit"type="" name="Formulario"> <br>
+    </form>
+</body>
+</html>
